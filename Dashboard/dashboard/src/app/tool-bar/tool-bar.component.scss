@@ -1,0 +1,24 @@
+.toolbar-style {
+    background: -webkit-linear-gradient(right, rgba(255,155,0,1), rgba(255,0,240,1));
+}
+
+.button-style {
+    color: black;
+    margin-top: 5px;
+}
+
+.title-toolbar {
+    margin: 12px;
+    font-size: 25px;
+}
+
+:host ::ng-deep .button-color-menu {
+    background-color: rgba(255,0,240,1) !important;
+    border-style: none;
+}
+
+:host ::ng-deep .button-color-input {
+    background-color:rgba(255,155,0,1) !important;
+    border-style: none;
+    margin-left: auto;
+}

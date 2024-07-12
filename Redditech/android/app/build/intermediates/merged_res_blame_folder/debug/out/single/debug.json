@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/marques/1_Delivery/YEARS_3/semestre_5/Projets/EN_COUR/B-DEV-501-NCY-5-1-redditech-jean.gauthier-damioli/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/marques/1_Delivery/YEARS_3/semestre_5/Projets/EN_COUR/B-DEV-501-NCY-5-1-redditech-jean.gauthier-damioli/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/marques/1_Delivery/YEARS_3/semestre_5/Projets/EN_COUR/B-DEV-501-NCY-5-1-redditech-jean.gauthier-damioli/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/marques/1_Delivery/YEARS_3/semestre_5/Projets/EN_COUR/B-DEV-501-NCY-5-1-redditech-jean.gauthier-damioli/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/marques/1_Delivery/YEARS_3/semestre_5/Projets/EN_COUR/B-DEV-501-NCY-5-1-redditech-jean.gauthier-damioli/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/marques/1_Delivery/YEARS_3/semestre_5/Projets/EN_COUR/B-DEV-501-NCY-5-1-redditech-jean.gauthier-damioli/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/marques/1_Delivery/YEARS_3/semestre_5/Projets/EN_COUR/B-DEV-501-NCY-5-1-redditech-jean.gauthier-damioli/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/marques/1_Delivery/YEARS_3/semestre_5/Projets/EN_COUR/B-DEV-501-NCY-5-1-redditech-jean.gauthier-damioli/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/marques/1_Delivery/YEARS_3/semestre_5/Projets/EN_COUR/B-DEV-501-NCY-5-1-redditech-jean.gauthier-damioli/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/marques/1_Delivery/YEARS_3/semestre_5/Projets/EN_COUR/B-DEV-501-NCY-5-1-redditech-jean.gauthier-damioli/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/marques/1_Delivery/YEARS_3/semestre_5/Projets/EN_COUR/B-DEV-501-NCY-5-1-redditech-jean.gauthier-damioli/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/marques/1_Delivery/YEARS_3/semestre_5/Projets/EN_COUR/B-DEV-501-NCY-5-1-redditech-jean.gauthier-damioli/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/marques/1_Delivery/YEARS_3/semestre_5/Projets/EN_COUR/B-DEV-501-NCY-5-1-redditech-jean.gauthier-damioli/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/marques/1_Delivery/YEARS_3/semestre_5/Projets/EN_COUR/B-DEV-501-NCY-5-1-redditech-jean.gauthier-damioli/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/marques/1_Delivery/YEARS_3/semestre_5/Projets/EN_COUR/B-DEV-501-NCY-5-1-redditech-jean.gauthier-damioli/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/marques/1_Delivery/YEARS_3/semestre_5/Projets/EN_COUR/B-DEV-501-NCY-5-1-redditech-jean.gauthier-damioli/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/marques/1_Delivery/YEARS_3/semestre_5/Projets/EN_COUR/B-DEV-501-NCY-5-1-redditech-jean.gauthier-damioli/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/marques/1_Delivery/YEARS_3/semestre_5/Projets/EN_COUR/B-DEV-501-NCY-5-1-redditech-jean.gauthier-damioli/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/marques/1_Delivery/YEARS_3/semestre_5/Projets/EN_COUR/B-DEV-501-NCY-5-1-redditech-jean.gauthier-damioli/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/marques/1_Delivery/YEARS_3/semestre_5/Projets/EN_COUR/B-DEV-501-NCY-5-1-redditech-jean.gauthier-damioli/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    }
+]

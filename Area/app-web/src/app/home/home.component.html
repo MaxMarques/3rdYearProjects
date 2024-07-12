@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
+ </head>
+    <body>
+        <mat-toolbar class="toolbar-style">
+          <section class="left_item">
+            <config-app></config-app>
+            <span class="title-toolbar">Maserati</span>
+          </section>
+              <section class="right_item">
+                <input class="create-btn" type="submit" value="Create" id="submit" (click)="redirectCreate()">	
+                <input style="margin-left: 10px;" class="upgrade-btn" type="submit" value="Upgrade" id="submit2" (click)="redirectUpgrade()">	
+                <mat-icon style="margin-left: 10px;" class="button-color-input">account_circle</mat-icon>
+              </section>
+        </mat-toolbar>
+        <!-- <app-spotify></app-spotify> -->
+        <app-twilio></app-twilio>
+        
+
+
+    </body>
+</html>

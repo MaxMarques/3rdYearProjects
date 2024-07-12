@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Applired.iml" filepath="$PROJECT_DIR$/.idea/modules/Applired.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/815619917/Applired.@react-native-async-storage_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/815619917/Applired.@react-native-async-storage_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Applired.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Applired.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-589627804/Applired.react-native-app-auth.iml" filepath="$PROJECT_DIR$/.idea/modules/-589627804/Applired.react-native-app-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/815619917/Applired.react-native-async-storage_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/815619917/Applired.react-native-async-storage_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-982574113/Applired.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-982574113/Applired.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-9635089/Applired.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-9635089/Applired.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2140331372/Applired.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/-2140331372/Applired.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1502560928/Applired.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/1502560928/Applired.react-native-vector-icons.iml" />
+    </modules>
+  </component>
+</project>

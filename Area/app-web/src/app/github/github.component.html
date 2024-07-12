@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <div class="card-body">
+            <form class="form" method="post" class="form" #userForm="ngForm" (ngSubmit)="getGithub()">
+                <div class="d-flex justify-content-center">
+                    <input type="submit" value="Gihtub Name" name="submit" class="btn float-right login_btn">
+                </div>
+            </form>
+        </div>
+        <div class="card">
+            <li><strong>Login:</strong>${{this.data.json.login}}</li>
+            <li><strong>Followers:</strong>${{this.data.json.followers}}</li>
+            <li><strong>Following:</strong>${{this.data.json.following}}</li>
+            <li><strong>Repos public:</strong>${{this.data.json.public_repos}}</li>
+            <li><strong>Company:</strong>${{this.data.json.company}}</li>
+            <li><strong>Name:</strong>${{this.data.json.name}}</li>
+            <li><strong>Login:</strong>${{this.data.json.login}}</li>
+            <img src="{{this.data.json.avatar_url}}">
+        </div>
+    </body>
+</html>

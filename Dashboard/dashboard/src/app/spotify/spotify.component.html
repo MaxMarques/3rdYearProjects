@@ -1,0 +1,18 @@
+<app-tool-bar-bis></app-tool-bar-bis>
+<button *ngIf="isAuthenticated" (click)="logout()">logout </button>
+<button *ngIf="isAuthenticated" (click)="getData()">Info User </button>
+
+<div id="divWeatherMain"> 
+    <div class="weatherWidgetRow">
+        <i class="fas fa-3x fa-sun sun"></i>  
+    </div>   
+    <div class="weatherWidgetRow">
+        <i class="fas fa-3x fa-moon moon"></i>  
+    </div>   
+    <div class="weatherWidgetRow cloudDiv">
+        <i class="fas fa-cloud fa-3x cloud"></i>
+    </div>
+    <div class="weatherWidgetRow" style="font-size: 25px; margin-top: 5px;">{{profile?.display_name | json}}</div>
+    <div class="weatherWidgetRow" style="font-size: 12px; margin-top: 15px;">{{profile?.country | json}}</div>
+    <div class="weatherWidgetRow" style="font-size: 12px; margin-top: 15px;">{{profile?.email | json}}</div>
+</div>

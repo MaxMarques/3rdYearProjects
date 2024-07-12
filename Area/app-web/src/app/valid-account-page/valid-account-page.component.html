@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+   
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="valid-account-page.component.scss">
+</head>
+<body>
+<div class="container">
+  <div class="d-flex justify-content-center h-100">
+    <div class="card">
+      <div class="card-header">
+        <h3 style="text-align:center">Vérification par Mail</h3>
+      </div>
+      <div class="card-header">
+        <h3 style="text-align:center">Nous venons de vous envoyer un mail contenant un code à 5 chiffres pour vérifier votre identitée, entrez le pour valider la création de votre compte</h3>
+      </div>
+      <div class="card-body">
+        <form  method="post" class="form" #userForm="ngForm" (ngSubmit)="CreateAccountPage(userForm)">
+          <div class="input-group form-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><i class="fas fa-check"></i></span>
+            </div>
+            <input (click)="empty = false; incorrect = false" type="password" class="form-control" placeholder="Entrez le code" name="passConfirm" [(ngModel)]="userService.selectedUser.passConfirm">
+            <div class="form-border">
+							<div *ngIf="empty">
+							  <h5 class="input-error">code vide</h5>
+							</div>
+							<div *ngIf="incorrect">
+							  <h5 class="input-error">Le code est incorrect</h5>
+							</div>
+						</div>
+          </div>
+          <div class="form-group">
+            <input type="submit" value="Verifier" name="submit" class="btn login_btn">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

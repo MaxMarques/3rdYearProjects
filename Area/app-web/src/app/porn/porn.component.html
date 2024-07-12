@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <div class="card-body">
+            <form class="form" method="post" class="form" #userForm="ngForm" (ngSubmit)="getUrl()">
+                <div class="d-flex justify-content-center">
+                    <input type="submit" value="New gif" name="submit" class="btn float-right login_btn">
+                </div>
+            </form>
+        </div>
+        <img src={{data.url}} alt="this slowpoke moves" width="1000" />
+    </body>
+</html>

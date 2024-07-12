@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card_github {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .card_ph {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+  }
+
+  .card_spotify {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .card_gmail {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .title {
+    font-size: 70px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(88, 88, 88);
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }

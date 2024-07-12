@@ -1,0 +1,43 @@
+version: '2' # specify docker-compose version
+
+# Define the services/containers to be run
+services:
+  client_web: # name of the first service
+    build: app-web # specify the directory of the Dockerfile
+    ports:
+      - "8081:4200" # specify port forewarding
+    volumes:
+      - myApp:/home/myApp # access environement for access debug APK mobile
+      - $PWD/app-web:/app
+    networks:
+      - back-network
+
+  server: #name of the second service
+    build: express-server # specify the directory of the Dockerfile
+    ports:
+      - "8080:8080" #specify ports forewarding
+    networks:
+      - back-network
+    volumes:
+      - $PWD/express-server:/usr/src/app
+
+  database: # name of the third service
+    image: mongo # specify image to build container from
+    ports:
+      - "27017:27017" # specify port forewarding
+    networks:
+      - back-network
+
+  client_mobile: # name of the four service
+    image: reactnativecommunity/react-native-android # image use for compiling APK
+    volumes:
+      - $PWD/appMobile:/pwd # path give accesse to debug APK mobile
+      - myApp:/home/myApp # volume create for import debug APK mobile
+    entrypoint: /bin/bash -c "cd /pwd/android && ./gradlew assembleDebug && mv /pwd/android/app/build/outputs/apk/debug/app-debug.apk /home/myApp" # command for generate debug APK moble and move in environement (chown -R marques:marques .)
+
+volumes:
+  myApp:
+
+networks:
+  back-network:
+    driver: bridge

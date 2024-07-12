@@ -1,0 +1,16 @@
+<button mat-raised-button color="primary" className="App-link">
+  <a href='http://localhost:8080/spotify/login'>log in</a>
+  </button>
+  <button mat-raised-button color="primary" (click)="logToSpotify()">
+      connect to db
+  </button>
+  <a>
+    <button mat-raised-button color="primary" (click)="logout()">Log Out</button>
+  </a>
+  <a>
+    <button mat-raised-button color="primary" (click)="getCurrentUserProfile()">get my info</button>
+  </a>
+  <a>
+    <button mat-raised-button color="primary" (click)="getFeaturedPlaylist()">get playlist</button>
+  </a>  
+  

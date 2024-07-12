@@ -1,0 +1,21 @@
+{
+  "name": "express-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "body-parser": "~1.15.2",
+    "dotenv": "^16.0.0",
+    "express": "~4.14.0",
+    "googleapis": "^95.0.0",
+    "mongoose": "^6.1.9",
+    "ng-swagger-gen": "^2.3.1",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2",
+    "twilio": "^3.75.0"
+  }
+}

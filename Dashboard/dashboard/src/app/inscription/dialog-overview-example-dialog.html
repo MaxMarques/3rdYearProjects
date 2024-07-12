@@ -1,0 +1,42 @@
+<div class="card-content">
+  <div class="card-title">
+    <h2>SIGN UP FORM</h2>
+    <div class="underline-title"></div>
+  </div>
+  <form class="form" method="post" class="form" #userForm="ngForm" (ngSubmit)="postUser(userForm)">
+    <label for="user-name" style="padding-top:50px">
+      &nbsp;Name
+    </label>
+    <input (click)="noName = false;" class="form-content" type="email" name="name" #name="ngModel" [(ngModel)]="userService.selectedUser.name" />
+    <div class="form-border">
+      <div *ngIf="noName">
+        <h5 class="input-error">Name is required</h5>
+      </div>
+    </div>
+    <div class="form-border"></div>
+    <label for="user-email" style="padding-top:13px">
+      &nbsp;Email
+    </label>
+    <input (click)="alreadyUse = false; noMail = false;" class="form-content" type="email" name="mail" #mail="ngModel" [(ngModel)]="userService.selectedUser.mail" />
+    <div class="form-border">
+      <div *ngIf="alreadyUse">
+        <h5 class="input-error">This email is already use</h5>
+      </div>
+      <div *ngIf="noMail">
+        <h5 class="input-error">Mail is required</h5>
+      </div>
+    </div>
+    <div class="form-border"></div>
+    <label for="user-pwd" style="padding-top:13px">
+      &nbsp;Password
+    </label>
+    <input (click)="noPwd = false;" class="form-content" name="pwd" #pwd="ngModel" [(ngModel)]="userService.selectedUser.pwd" />
+    <div class="form-border">
+      <div *ngIf="noPwd">
+        <h5 class="input-error">Password is required</h5>
+      </div>
+    </div>
+    <div class="form-border"></div>
+    <input class="submit-btn" type="submit" name="submit" value="SUBMIT" />
+  </form>
+</div>

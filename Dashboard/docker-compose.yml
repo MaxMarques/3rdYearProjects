@@ -1,0 +1,31 @@
+version: '3' # specify docker-compose version
+
+# Define the services/containers to be run
+services:
+  angular: # name of the first service
+    build: dashboard # specify the directory of the Dockerfile
+    ports:
+      - "3000:3000" # specify port forewarding
+    volumes:
+      - ./dashboard:/app # this will enable changes made to the angular app reflect in the container
+    networks:
+      - back-network
+
+  express: #name of the second service
+    build: express-server # specify the directory of the Dockerfile
+    ports:
+      - "8080:8080" #specify ports forewarding
+    links:
+      - database
+    networks:
+      - back-network
+
+  database: # name of the third service
+    image: mongo # specify image to build container from
+    ports:
+      - "27017:27017" # specify port forewarding
+    networks:
+      - back-network
+networks:
+  back-network:
+    driver: bridge

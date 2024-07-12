@@ -1,0 +1,173 @@
+.card-title {
+  font-family: "Raleway Thin", sans-serif;
+  text-align: center;
+  color: black;
+}
+  
+.underline-title {
+  background: black;//-webkit-linear-gradient(right, rgba(12, 47, 89), rgba(224, 28, 32));
+  height: 2px;
+  margin: -1.1rem auto 0 auto;
+  width: 150px;
+}
+
+.form {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-content {
+  background: #fbfbfb;
+  border: none;
+  outline: none;
+  padding-top: 14px;
+}
+
+.form-border {
+  background: -webkit-linear-gradient(right, rgba(12, 47, 89), rgba(224, 28, 32));
+  height: 1px;
+  width: 100%;
+}
+
+.submit-btn {
+  background: -webkit-linear-gradient(right, rgba(12, 47, 89), rgba(224, 28, 32));
+  border: none;
+  border-radius: 21px;
+  box-shadow: 0px 1px 8px rgba(255,155,0,1);
+  cursor: pointer;
+  color: white;
+  font-family: "Raleway SemiBold", sans-serif;
+  height: 42.3px;
+  margin: 0 auto;
+  margin-top: 80px;
+  transition: 0.25s;
+  width: 203px;
+}
+  
+.submit-btn:hover {
+  box-shadow: 0px 1px 18px rgba(255,0,240,1);
+}
+
+.signup {
+  color: rgba(255,155,0,1);
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  margin-top: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.input-error {
+  text-align: center;
+  color: red;
+}
+
+.signupbtn{
+  color: white;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: white;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: white;
+background-color: #7a7a7a;
+width: 100px;
+}
+
+.login_btn:hover{
+color: white;
+background-color: white;
+}
+
+.icon{
+  color: black;
+  vertical-align: middle;
+}
+
+.button-menu{
+  margin-top: 20px;
+  background-color: white;
+  color: black;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 8%;
+  border-style: groove;
+}
+
+.button-menu:hover{
+  background-color: gray;
+}
+
+.button-color-menu {
+  margin-top: 5px;
+  background-color: white;
+  color: black;
+  border-radius: 30%;
+  border-style: none;
+}
+
+.button-color-menu:hover {
+    margin-top: 5px;
+    background-color: gray;
+    border-radius: 30%;
+    border-style: none;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+.h2 {
+  color: black;
+}

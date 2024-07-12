@@ -1,0 +1,100 @@
+{
+    "client": {
+        "host": "10.101.53.35"
+    },
+    "server": {
+        "current_time": 1531680780,
+        "services": [
+            {
+                "name": "Gmail",
+                "actions": [
+                    {
+                        "name": "receipt of mail",
+                        "description": "New mail inbox"
+                    }
+                ],
+                "reaction": [
+                    {
+                        "name": "send mail",
+                        "description": "Send a mail reaction"
+                    }
+                ]
+            },
+            {
+                "name": "spotify",
+                "actions": [
+                    {
+                        "name": "my_profile",
+                        "description": "Displaying the spotify profile"
+                    },
+                    {
+                        "name": "my_playlist",
+                        "description": "Displaying my playlist"
+                    },
+                    {
+                        "name": "current_playlist",
+                        "description": "Displaying the current playlist"
+                    }
+                ],
+                "reaction": [
+                    {
+                        "name": "send mail",
+                        "description": "Send a mail reaction"
+                    },
+                    {
+                        "name": "send message",
+                        "description": "Send a message reaction"
+                    }
+                ]
+            },
+            {
+                "name": "Pornhub",
+                "actions": [
+                    {
+                        "name": "GIF",
+                        "description": "Displaying porn GIF"
+                    }
+                ]
+            },
+            {
+                "name": "Github",
+                "actions": [
+                    {
+                        "name": "get_profile",
+                        "description": "Displaying information of different profile"
+                    }
+                ]
+            },
+            {
+                "name": "Weather",
+                "actions": [
+                    {
+                        "name": "get_weather",
+                        "description": "Get weather of a city"
+                    }
+                ],
+                "reaction": [
+                    {
+                        "name": "send mail",
+                        "description": "Send a mail advertissement"
+                    }
+                ]
+            },
+            {
+                "name": "Crypto",
+                "actions": [
+                    {
+                        "name": "get_crypto",
+                        "description": "Get different information about crypto"
+                    }
+                ],
+                "reaction": [
+                    {
+                        "name": "send mail",
+                        "description": "Send a mail advertissement"
+                    }
+                ]
+            }
+        ]
+    }
+}

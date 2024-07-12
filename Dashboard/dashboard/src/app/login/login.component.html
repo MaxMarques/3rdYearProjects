@@ -1,0 +1,56 @@
+<div class="color-background">
+  <div class="logo">
+    <img style="width: 90px;" src="../assets/Login/logo.png">
+    <h1 class="font-logo">DASH-X</h1>
+  </div>
+  <div class="title-login">
+    <h1 class="font-title-login">
+      Sign in to continue
+    </h1>
+  </div>
+  <div class="card-background">
+    <mat-card class="card">
+      <div class="card-content">
+        <div class="card-title">
+          <h2>LOGIN</h2>
+          <div class="underline-title"></div>
+        </div>
+        <form method="post" class="form" #userForm="ngForm">
+          <label for="user-email" style="padding-top:13px">
+            &nbsp;Email
+          </label>
+          <input (click)="empty = false; incorrect = false" id="user-email" class="form-content" type="email" name="email" #mail="ngModel" [(ngModel)]="userService.selectedUser.mail" />
+          <div class="form-border">
+            <div *ngIf="empty">
+              <h5 class="input-error">Email is required</h5>
+            </div>
+            <div *ngIf="incorrect">
+              <h5 class="input-error">Email or Password is incorrect</h5>
+            </div>
+          </div>
+          <label for="user-password" style="padding-top:22px">
+            &nbsp;Password
+          </label>
+          <input (click)="empty = false; incorrect = false" id="user-password" class="form-content" type="password" name="password" #pwd="ngModel" [(ngModel)]="userService.selectedUser.pwd"/>
+          <div class="form-border">
+            <div *ngIf="empty">
+              <h5 class="input-error">Password is required</h5>
+            </div>
+            <div *ngIf="incorrect">
+              <h5 class="input-error">Email or Password is incorrect</h5>
+            </div>
+          </div>
+          <div class="google-button">
+            <button (click)="loginWithGoogle()">
+              <mat-icon class="google-icon" svgIcon="logo">
+              </mat-icon>
+              Login With Google
+            </button>
+          </div>
+          <input (click)="checkUser(userForm)" class="submit-btn" type="submit" name="submit" value="LOGIN" />
+          <app-inscription></app-inscription>
+        </form>
+      </div>
+    </mat-card>
+  </div>
+</div>

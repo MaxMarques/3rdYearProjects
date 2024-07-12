@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-color: whitesmoke;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+// background-image: url('https://www.mon-thermostat-connecte.com/wp-content/uploads/2020/05/0.jpeg');
+
+}
+
+.toolbar-style {
+    background-color: right, rgba(12, 47, 89), rgba(224, 28, 32);
+    height: 20%;
+    background: -webkit-linear-gradient(right, rgba(12, 47, 89), rgba(224, 28, 32));
+}
+
+.left_item {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 30px;
+    margin-left: 3px;
+}
+
+.right_item {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+}
+
+.title-toolbar {
+    margin-top: 300px;
+    margin: 12px;
+    font-size: 25px;
+    color: white;
+    
+}
+
+.button-color-menu {
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 30%;
+    border-style: none;
+}
+
+.button-color-menu:hover {
+    margin-top: 5px;
+    background-color: gray;
+    border-radius: 30%;
+    border-style: none;
+}
+
+.button-color-input {
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 30%;
+    border-style: none;
+    margin-left: auto;
+    font-size: 40px !important;
+}
+
+.button-color-input:hover {
+    margin-top: 5px;
+    background-color:gray;
+    border-radius: 30%;
+    border-style: none;
+    margin-left: auto;
+}
+
+.card-content {
+    padding: 12px 25px;
+}
+
+.card-title {
+    font-family: "Raleway Thin", sans-serif;
+    text-align: center;
+}
+
+    .form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .form-content {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+    }
+
+    .form-border {
+    background: -webkit-linear-gradient(right, rgba(12, 47, 89), rgba(224, 28, 32));
+    height: 1px;
+    width: 100%;
+    }
+
+    .upgrade-btn {
+    background: -webkit-linear-gradient(rgba(12, 47, 89));
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px rgba(255,155,0,1);
+    cursor: pointer;
+    color: black;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    transition: 0.25s;
+    width: 203px;
+
+    }
+
+    .create-btn {
+        background: -webkit-linear-gradient(white);
+        border: none;
+        border-radius: 21px;
+        box-shadow: 0px 1px 8px rgba(255,155,0,1);
+        cursor: pointer;
+        color: black;
+        font-family: "Raleway SemiBold", sans-serif;
+        height: 42.3px;
+        margin: 0 auto;
+        transition: 0.25s;
+        width: 203px;
+        }
+
+    .submit-btn:hover {
+    box-shadow: 0px 1px 18px rgba(255,0,240,1);
+    }
+
+    .signup {
+    color: rgba(255,155,0,1);
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+    cursor: pointer;
+    }
+
+    .input-error {
+    text-align: center;
+    color: red;
+    }
+
+    .signupbtn{
+    color: white;
+    }
+
+    .container{
+    height: 100%;
+    align-content: center;
+    }
+
+    .card{
+    text-align: center;
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+    }
+
+    .social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+    }
+
+    .social_icon span:hover{
+    color: white;
+    cursor: pointer;
+    }
+
+    .card-header h3{
+    color: white;
+    }
+
+    .card-body{
+        text-align: center;
+    }
+    
+    .social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+    }
+
+    .input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+    }
+
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+
+    }
+
+    .remember{
+    color: white;
+    }
+
+    .remember input
+    {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    }
+
+    .login_btn{
+    color: white;
+    background-color: #7a7a7a;
+    width: 100px;
+    }
+
+    .login_btn:hover{
+    color: black;
+    background-color: white;
+    }
+
+    .links{
+    color: white;
+    }
+
+    .links a{
+    margin-left: 4px;
+    }
+
+    .input-error {
+    text-align: center;
+    color: red;
+    }
+
+    .form-border {
+    background: -webkit-linear-gradient(right, rgba(255,155,0,1), rgba(255,0,240,1));
+    height: 1px;
+    width: 100%;
+    }
